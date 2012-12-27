@@ -7,7 +7,7 @@ for Elesapiens Learning & FUN
 website:www.elesapiens.com
 
 */
-require_once('client_REST.php');
+require_once('Client_REST.php');
 
 echo Http::connect('elesapiens.com', 8080)
     ->ElesapiensdoGet('/eleresourse/eleresource', array('user' => "xxxx",
